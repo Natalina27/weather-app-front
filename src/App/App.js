@@ -1,8 +1,9 @@
 import React, {useEffect, useState} from 'react';
-import './App.css';
 import axios from 'axios';
-import Day from "./Day";
+import Day from '../Day/Day';
 import {v4 as uuidv4} from 'uuid';
+
+import s from './App.module.css';
 
 const urlForecast =
     'http://api.openweathermap.org/data/2.5/forecast?q=London,UKus&cnt=40&mode=json&appid=47e69b822b5de870839d6c8b5b679e56';
@@ -53,27 +54,27 @@ function App() {
         }, 60000);
         return () => clearTimeout(timer);
     })
-    console.log('---------list---------', list)
-    console.log('---------firstElem---------', firstElem)
+    // console.log('---------list---------', list)
+    // console.log('---------firstElem---------', firstElem)
     return (
-        <div className='status-col'>
-            <div className='header'>
-                <h3>
-                    London
-                    {"                                   "}
-                    {time.toLocaleTimeString().slice(0, 5)}
-                    {"                                   "}
-                    {firstElem}
-                </h3>
+        <div className={s.container}>
+            <div className={s.statusCol}>
+                <div className={s.header}>
+                    <h3>
+                        London
+                        {"                                   "}
+                        {time.toLocaleTimeString().slice(0, 5)}
+                        {"                                   "}
+                        {firstElem}
+                    </h3>
+                </div>
+
+
+                {list.map(el => (
+                    <Day key={uuidv4()} temp={el.temp} day={el.day} icon={el.icon}/>
+                ))}
             </div>
-
-
-            {list.map(el => (
-                <Day key={uuidv4()} temp={el.temp} day={el.day} icon={el.icon}/>
-            ))}
         </div>
-
-
     );
 }
 
