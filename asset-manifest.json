@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/natalina27.github.io/weather-app-front/static/css/main.76958ddc.chunk.css",
-    "main.js": "/natalina27.github.io/weather-app-front/static/js/main.7edd0f3e.chunk.js",
-    "main.js.map": "/natalina27.github.io/weather-app-front/static/js/main.7edd0f3e.chunk.js.map",
-    "runtime-main.js": "/natalina27.github.io/weather-app-front/static/js/runtime-main.1f9cefe0.js",
-    "runtime-main.js.map": "/natalina27.github.io/weather-app-front/static/js/runtime-main.1f9cefe0.js.map",
-    "static/js/2.a98956ec.chunk.js": "/natalina27.github.io/weather-app-front/static/js/2.a98956ec.chunk.js",
-    "static/js/2.a98956ec.chunk.js.map": "/natalina27.github.io/weather-app-front/static/js/2.a98956ec.chunk.js.map",
-    "index.html": "/natalina27.github.io/weather-app-front/index.html",
-    "precache-manifest.7542e2cffc5b0c3dc0571b6b249d4cf4.js": "/natalina27.github.io/weather-app-front/precache-manifest.7542e2cffc5b0c3dc0571b6b249d4cf4.js",
-    "service-worker.js": "/natalina27.github.io/weather-app-front/service-worker.js",
-    "static/css/main.76958ddc.chunk.css.map": "/natalina27.github.io/weather-app-front/static/css/main.76958ddc.chunk.css.map",
-    "static/js/2.a98956ec.chunk.js.LICENSE.txt": "/natalina27.github.io/weather-app-front/static/js/2.a98956ec.chunk.js.LICENSE.txt"
+    "main.css": "/weather-app-front/static/css/main.76958ddc.chunk.css",
+    "main.js": "/weather-app-front/static/js/main.7edd0f3e.chunk.js",
+    "main.js.map": "/weather-app-front/static/js/main.7edd0f3e.chunk.js.map",
+    "runtime-main.js": "/weather-app-front/static/js/runtime-main.a03c65a5.js",
+    "runtime-main.js.map": "/weather-app-front/static/js/runtime-main.a03c65a5.js.map",
+    "static/js/2.a98956ec.chunk.js": "/weather-app-front/static/js/2.a98956ec.chunk.js",
+    "static/js/2.a98956ec.chunk.js.map": "/weather-app-front/static/js/2.a98956ec.chunk.js.map",
+    "index.html": "/weather-app-front/index.html",
+    "precache-manifest.b9b4da7b0425f285f23ae7ba71aa1975.js": "/weather-app-front/precache-manifest.b9b4da7b0425f285f23ae7ba71aa1975.js",
+    "service-worker.js": "/weather-app-front/service-worker.js",
+    "static/css/main.76958ddc.chunk.css.map": "/weather-app-front/static/css/main.76958ddc.chunk.css.map",
+    "static/js/2.a98956ec.chunk.js.LICENSE.txt": "/weather-app-front/static/js/2.a98956ec.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1f9cefe0.js",
+    "static/js/runtime-main.a03c65a5.js",
     "static/js/2.a98956ec.chunk.js",
     "static/css/main.76958ddc.chunk.css",
     "static/js/main.7edd0f3e.chunk.js"
