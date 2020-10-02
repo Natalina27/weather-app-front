@@ -1,4 +1,5 @@
 {
+  "homepage": "natalina27.github.io/weather-app-front/",
   "name": "weather-app-front",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,6 +37,7 @@
   },
   "devDependencies": {
     "axios": "^0.20.0",
+    "gh-pages": "^3.1.0",
     "uuid": "^8.3.0"
   }
 }
