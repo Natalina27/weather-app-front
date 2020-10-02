@@ -6,7 +6,7 @@ import s from './Day.module.css';
 function Day(props) {
   const {temp, day, icon} = props
   const degreeTemp = "" + Math.round(temp - 273) + "°"
-  const iconUrl = "http://openweathermap.org/img/wn/" + icon + ".png"
+  const iconUrl = "https://openweathermap.org/img/wn/" + icon + ".png"
   console.log(iconUrl)
   return (
 
